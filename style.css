@@ -1,0 +1,106 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+    padding-top: calc((100vh - 400px)/2);
+    
+}
+.container {
+    width: 500px;
+    height: 400px; 
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px hsl(221, 100%, 96%);
+}
+.sect {
+    flex: 1;
+    padding : 10px;
+    border-radius: 15px;
+}
+
+/*left hand side*/
+
+.left {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+.score {
+    margin: 0 auto;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), #1c39bb);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.hres {
+    margin: 0 auto;
+    padding-top: calc((150px - 50px)/2);
+    font-weight: 800;
+    font-size: 50px;
+}
+.pres {
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
+    margin-top: -5px;
+}
+.res-com {
+    font-size: 13px;
+    padding: 0 15px;
+}
+/*right hand side*/
+
+.right {
+    padding-left: 15px;
+    color: hsl(224, 30%, 27%); 
+}
+.results {
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.category {
+    box-sizing: border-box;
+    height: 40px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(241, 100%, 89%);
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 5px;
+    padding-top: calc((40px-20px)/2);
+    padding: 0 10px 5px 10px;
+    font-size: 15px;
+}
+.text img{
+    float: left;
+  padding-right: 10px;
+}
+.t1 {
+    color: hsl(0, 100%, 67%);
+}
+.t2 {
+    color: hsl(39, 100%, 56%);
+}
+.t3 {
+    color: hsl(166, 100%, 37%);
+}
+.t4 {
+    color: hsl(234, 85%, 45%);
+}
+.r {
+    color: hsl(224, 30%, 27%);
+}
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/*You need to add icons and then the opac background color to the  categoies*/
